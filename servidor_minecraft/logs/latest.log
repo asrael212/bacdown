@@ -1,0 +1,1167 @@
+[17Aug2026 00:06:09.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkCup268 was doomed to fall by Ender Dragon
+[17Aug2026 00:06:09.019] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for DarkCup268 with unique ID travelersbackpack.standard_17.08.2026-00.06.09.dat
+[17Aug2026 00:06:09.019] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Your backpack has been placed at X: 24 Y: 60 Z: -40
+[17Aug2026 00:06:14.141] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkCup268 moved too quickly! 2109.685358272226,27.464159374955443,888.8077633990869
+[17Aug2026 00:09:09.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to -2296.500000, -49.500000, -117.500000]
+[17Aug2026 00:09:15.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to -1514.500000, 126.500000, 435.500000]
+[17Aug2026 00:10:27.088] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Noobmaster69> quien mrd se llevo mi cuero
+[17Aug2026 00:10:31.228] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Noobmaster69> chmrs
+[17Aug2026 00:11:31.188] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkCup268 moved too quickly! 14.617885021031597,13.446191558965666,5.2848539205216465
+[17Aug2026 00:11:32.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkCup268 was doomed to fall by Ender Dragon
+[17Aug2026 00:11:32.694] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for DarkCup268 with unique ID travelersbackpack.standard_17.08.2026-00.11.32.dat
+[17Aug2026 00:11:32.696] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Your backpack has been placed at X: 53 Y: 60 Z: -8
+[17Aug2026 00:16:26.586] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkCup268 moved too quickly! 16.036005288314385,3.758874236244509,-0.8753543897283356
+[17Aug2026 00:16:29.838] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkCup268 was kicked for floating too long!
+[17Aug2026 00:16:29.888] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkCup268 lost connection: Flying is not enabled on this server
+[17Aug2026 00:16:29.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkCup268 left the game
+[17Aug2026 00:16:29.889] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client DarkCup268
+[17Aug2026 00:16:39.306] [SkinRestorer-Fetch-8/WARN] [SkinRestorer/]: Failed to fetch skin 'mojang:DarkCup268'
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:141) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.YggdrasilSkinProvider.getProfile(YggdrasilSkinProvider.java:50) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.lambda$new$0(MojangSkinProvider.java:43) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.minecraft.server.players.GameProfileCache.m_10993_(GameProfileCache.java:98) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.server.players.GameProfileCache.m_10996_(GameProfileCache.java:150) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.resolveUuid(MojangSkinProvider.java:74) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:40) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:17) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.AbstractSkinProvider.fetchSkin(AbstractSkinProvider.java:52) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md978671$lambda$skinrestorer$fetchSkin$3$1(ServerLoginPacketListenerImpl.java:646) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.skinrestorer$fetchSkin(ServerLoginPacketListenerImpl.java:646) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md978671$lambda$waitForSkin$0$4(ServerLoginPacketListenerImpl.java:595) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[17Aug2026 00:16:39.351] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DarkCup268[/127.116.29.122:38351] logged in with entity id 29374 at (43.643537213390445, 101.84762693384131, -4.152581109067526)
+[17Aug2026 00:16:39.361] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player DarkCup268
+[17Aug2026 00:16:39.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkCup268 joined the game
+[17Aug2026 00:16:39.595] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of DarkCup268 (20)
+[17Aug2026 00:16:39.596] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to DarkCup268
+[17Aug2026 00:16:41.630] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player bc28b38d-6ab8-357a-b672-0460a535da36
+[17Aug2026 00:16:42.623] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player bc28b38d-6ab8-357a-b672-0460a535da36
+[17Aug2026 00:16:42.623] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player DarkCup268 (bc28b38d-6ab8-357a-b672-0460a535da36) successfully connected to voice chat
+[17Aug2026 00:16:43.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkCup268 fell from a high place
+[17Aug2026 00:16:43.418] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for DarkCup268 with unique ID travelersbackpack.standard_17.08.2026-00.16.43.dat
+[17Aug2026 00:16:43.418] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Your backpack has been placed at X: 43 Y: 97 Z: -3
+[17Aug2026 00:16:53.820] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkCup268 moved too quickly! 2109.885023503152,27.392604549951344,889.5013712582853
+[17Aug2026 00:18:35.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to -1514.500000, 126.500000, 435.500000]
+[17Aug2026 00:21:15.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkCup268 has made the advancement [Free the End]
+[17Aug2026 00:21:46.088] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkCup268 has reached the goal [The Next Generation]
+[17Aug2026 00:22:29.494] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: antares moved too quickly! -0.13668112002142152,-14.253790142017849,0.0
+[17Aug2026 00:22:32.501] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: antares moved too quickly! 0.0,-11.91043863830506,0.0
+[17Aug2026 00:22:33.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to -997.500000, 68.500000, 76.500000]
+[17Aug2026 00:24:11.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to -1514.500000, 126.500000, 435.500000]
+[17Aug2026 00:27:48.065] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Noobmaster69 moved wrongly!
+[17Aug2026 00:39:25.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: antares fell from a high place
+[17Aug2026 00:39:30.941] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to -1512.500000, 15.500000, 424.500000]
+[17Aug2026 00:40:07.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to -1514.500000, 126.500000, 435.500000]
+[17Aug2026 00:42:36.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to -1514.500000, 126.500000, 435.500000]
+[17Aug2026 00:47:53.248] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkCup268 moved too quickly! 7.440486497613847,0.0,-7.582631611353008
+[17Aug2026 00:50:00.790] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkCup268 moved too quickly! -7.6232082543640445,0.0,-7.884819936952226
+[17Aug2026 00:50:11.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: antares has made the advancement [Crops of the Wild]
+[17Aug2026 00:51:40.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkCup268 has made the advancement [The City at the End of the Game]
+[17Aug2026 00:51:54.039] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkCup268 has reached the goal [Sky's the Limit]
+[17Aug2026 00:52:00.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkCup268 has made the advancement [Hunt and Gather]
+[17Aug2026 00:52:00.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkCup268 has made the advancement [Diamond Tier Upgrade]
+[17Aug2026 00:53:32.193] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkCup268 moved too quickly! -4.868068495162788,-73.0,6.940630859528028
+[17Aug2026 00:53:32.238] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkCup268 has completed the challenge [Great View From Up Here]
+[17Aug2026 00:54:29.362] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkCup268 moved too quickly! 5.996491207971985,-4.0,7.38381558383935
+[17Aug2026 00:55:50.247] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: antares lost connection: Timed out
+[17Aug2026 00:55:50.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: antares left the game
+[17Aug2026 00:55:50.247] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client antares
+[17Aug2026 00:56:59.551] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: antares[/127.29.15.204:59781] logged in with entity id 55326 at (-1656.2373531682445, -52.0, 201.48653178111795)
+[17Aug2026 00:56:59.567] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player antares
+[17Aug2026 00:56:59.576] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: antares joined the game
+[17Aug2026 00:56:59.786] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of antares (20)
+[17Aug2026 00:56:59.786] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to antares
+[17Aug2026 00:57:01.901] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player d2996896-477c-303b-9567-4082b9abb61d
+[17Aug2026 00:57:02.901] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player d2996896-477c-303b-9567-4082b9abb61d
+[17Aug2026 00:57:02.902] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player antares (d2996896-477c-303b-9567-4082b9abb61d) successfully connected to voice chat
+[17Aug2026 00:58:29.691] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: antares lost connection: Timed out
+[17Aug2026 00:58:29.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: antares left the game
+[17Aug2026 00:58:29.691] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client antares
+[17Aug2026 00:58:40.354] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: antares[/127.29.15.204:54617] logged in with entity id 56307 at (-1656.1336519046363, -51.0, 203.69999998807907)
+[17Aug2026 00:58:40.363] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player antares
+[17Aug2026 00:58:40.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: antares joined the game
+[17Aug2026 00:58:40.580] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of antares (20)
+[17Aug2026 00:58:40.582] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to antares
+[17Aug2026 00:58:42.600] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player d2996896-477c-303b-9567-4082b9abb61d
+[17Aug2026 00:58:43.602] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player d2996896-477c-303b-9567-4082b9abb61d
+[17Aug2026 00:58:43.602] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player antares (d2996896-477c-303b-9567-4082b9abb61d) successfully connected to voice chat
+[17Aug2026 00:58:59.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Noobmaster69> andre asme y sakva ami aldeano
+[17Aug2026 01:06:17.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to -1514.500000, 126.500000, 435.500000]
+[17Aug2026 01:07:35.992] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkCup268 moved too quickly! -7.833620852639115,1.0,-7.94915855674526
+[17Aug2026 01:10:16.690] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkCup268 moved too quickly! -7.711635270163242,-15.0,-5.23707111351996
+[17Aug2026 01:12:20.992] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player bc28b38d-6ab8-357a-b672-0460a535da36 timed out
+[17Aug2026 01:12:20.992] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player DarkCup268
+[17Aug2026 01:12:20.992] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to DarkCup268
+[17Aug2026 01:12:21.114] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player bc28b38d-6ab8-357a-b672-0460a535da36
+[17Aug2026 01:12:22.117] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player bc28b38d-6ab8-357a-b672-0460a535da36
+[17Aug2026 01:12:22.118] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player DarkCup268 (bc28b38d-6ab8-357a-b672-0460a535da36) successfully connected to voice chat
+[17Aug2026 01:14:05.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkCup268 has made the advancement [Remote Getaway]
+[17Aug2026 01:15:11.695] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkCup268 lost connection: Disconnected
+[17Aug2026 01:15:11.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkCup268 left the game
+[17Aug2026 01:15:11.695] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client DarkCup268
+[17Aug2026 01:15:20.238] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> a mano
+[17Aug2026 01:15:22.091] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> no te lei
+[17Aug2026 01:15:22.343] [SkinRestorer-Fetch-11/WARN] [SkinRestorer/]: Failed to fetch skin 'mojang:DarkCup268'
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:141) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.YggdrasilSkinProvider.getProfile(YggdrasilSkinProvider.java:50) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.lambda$new$0(MojangSkinProvider.java:43) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.minecraft.server.players.GameProfileCache.m_10993_(GameProfileCache.java:98) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.server.players.GameProfileCache.m_10996_(GameProfileCache.java:150) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.resolveUuid(MojangSkinProvider.java:74) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:40) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:17) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.AbstractSkinProvider.fetchSkin(AbstractSkinProvider.java:52) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md978671$lambda$skinrestorer$fetchSkin$3$1(ServerLoginPacketListenerImpl.java:646) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.skinrestorer$fetchSkin(ServerLoginPacketListenerImpl.java:646) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md978671$lambda$waitForSkin$0$4(ServerLoginPacketListenerImpl.java:595) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[17Aug2026 01:15:22.396] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DarkCup268[/127.116.29.122:39825] logged in with entity id 66390 at (-2028.699999988079, 20.0, -884.3000000119209)
+[17Aug2026 01:15:22.407] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player DarkCup268
+[17Aug2026 01:15:22.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkCup268 joined the game
+[17Aug2026 01:15:22.588] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of DarkCup268 (20)
+[17Aug2026 01:15:22.589] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to DarkCup268
+[17Aug2026 01:15:23.351] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player bc28b38d-6ab8-357a-b672-0460a535da36
+[17Aug2026 01:15:24.362] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player bc28b38d-6ab8-357a-b672-0460a535da36
+[17Aug2026 01:15:24.364] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player DarkCup268 (bc28b38d-6ab8-357a-b672-0460a535da36) successfully connected to voice chat
+[17Aug2026 01:15:27.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> me meti full en maquinas xd
+[17Aug2026 01:15:30.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> aun quieres el tp?
+[17Aug2026 01:17:22.732] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkCup268 lost connection: Disconnected
+[17Aug2026 01:17:22.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkCup268 left the game
+[17Aug2026 01:17:22.734] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client DarkCup268
+[17Aug2026 01:24:19.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Noobmaster69> andre tienes lana?
+[17Aug2026 01:24:24.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> cuanta
+[17Aug2026 01:24:28.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Noobmaster69> pa una cama
+[17Aug2026 01:24:35.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> deja veo
+[17Aug2026 01:24:55.036] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> si justo
+[17Aug2026 01:25:09.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Noobmaster69> dame causa me tiene arto los fantasmas quiero domir
+[17Aug2026 01:25:26.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to Noobmaster69]
+[17Aug2026 01:25:58.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to -1514.500000, 126.500000, 435.500000]
+[17Aug2026 01:26:14.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Noobmaster69> suerme
+[17Aug2026 01:26:27.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> voy
+[17Aug2026 01:28:24.321] [SkinRestorer-Fetch-12/WARN] [SkinRestorer/]: Failed to fetch skin 'mojang:mateonsio777'
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:141) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.YggdrasilSkinProvider.getProfile(YggdrasilSkinProvider.java:50) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.lambda$new$0(MojangSkinProvider.java:43) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.minecraft.server.players.GameProfileCache.m_10993_(GameProfileCache.java:98) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.server.players.GameProfileCache.m_10996_(GameProfileCache.java:150) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.resolveUuid(MojangSkinProvider.java:74) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:40) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:17) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.AbstractSkinProvider.fetchSkin(AbstractSkinProvider.java:52) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md978671$lambda$skinrestorer$fetchSkin$3$1(ServerLoginPacketListenerImpl.java:646) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.skinrestorer$fetchSkin(ServerLoginPacketListenerImpl.java:646) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md978671$lambda$waitForSkin$0$4(ServerLoginPacketListenerImpl.java:595) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[17Aug2026 01:28:24.366] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: mateonsio777[/127.151.155.59:56285] logged in with entity id 72577 at (-785.8937251789987, 63.796735600668704, -377.0706299381206)
+[17Aug2026 01:28:24.376] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player mateonsio777
+[17Aug2026 01:28:24.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mateonsio777 joined the game
+[17Aug2026 01:28:24.961] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of mateonsio777 (20)
+[17Aug2026 01:28:24.963] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to mateonsio777
+[17Aug2026 01:28:27.587] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 2f178578-10ed-3a5b-85b7-d8bad4ac51d5
+[17Aug2026 01:28:28.589] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 2f178578-10ed-3a5b-85b7-d8bad4ac51d5
+[17Aug2026 01:28:28.590] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player mateonsio777 (2f178578-10ed-3a5b-85b7-d8bad4ac51d5) successfully connected to voice chat
+[17Aug2026 01:28:37.728] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Noobmaster69 lost connection: Disconnected
+[17Aug2026 01:28:37.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Noobmaster69 left the game
+[17Aug2026 01:28:37.730] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Noobmaster69
+[17Aug2026 01:29:01.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mateonsio777 has made the advancement [What a Deal!]
+[17Aug2026 01:31:57.436] [SkinRestorer-Fetch-13/WARN] [SkinRestorer/]: Failed to fetch skin 'mojang:f4tizzz'
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:141) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.YggdrasilSkinProvider.getProfile(YggdrasilSkinProvider.java:50) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.lambda$new$0(MojangSkinProvider.java:43) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.minecraft.server.players.GameProfileCache.m_10993_(GameProfileCache.java:98) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.server.players.GameProfileCache.m_10996_(GameProfileCache.java:150) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.resolveUuid(MojangSkinProvider.java:74) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:40) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:17) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.AbstractSkinProvider.fetchSkin(AbstractSkinProvider.java:52) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md978671$lambda$skinrestorer$fetchSkin$3$1(ServerLoginPacketListenerImpl.java:646) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.skinrestorer$fetchSkin(ServerLoginPacketListenerImpl.java:646) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md978671$lambda$waitForSkin$0$4(ServerLoginPacketListenerImpl.java:595) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[17Aug2026 01:31:57.452] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: fossil:fa_cookable_eggs_to_cooked_egg_from_campfire_cooking removed now.
+[17Aug2026 01:31:57.452] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: fossil:fa_cookable_eggs_to_cooked_egg_from_smoking removed now.
+[17Aug2026 01:31:57.453] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: fossil:fa_cookable_eggs_to_cooked_egg removed now.
+[17Aug2026 01:31:57.453] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: fossil:fa_cookable_eggs_to_cooked_egg_from_campfire_cooking removed now.
+[17Aug2026 01:31:57.453] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: fossil:fa_cookable_eggs_to_cooked_egg_from_smoking removed now.
+[17Aug2026 01:31:57.453] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: fossil:fa_cookable_eggs_to_cooked_egg removed now.
+[17Aug2026 01:31:57.454] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: f4tizzz[/127.89.189.155:40863] logged in with entity id 74101 at (-758.6999999880791, 65.0, 1332.853089531569)
+[17Aug2026 01:31:57.462] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player f4tizzz
+[17Aug2026 01:31:57.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: f4tizzz joined the game
+[17Aug2026 01:31:58.168] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of f4tizzz (20)
+[17Aug2026 01:31:58.168] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to f4tizzz
+[17Aug2026 01:32:00.921] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player d9cc7137-c87a-30f8-a49d-3adfd052b96e
+[17Aug2026 01:32:01.930] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player d9cc7137-c87a-30f8-a49d-3adfd052b96e
+[17Aug2026 01:32:01.931] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player f4tizzz (d9cc7137-c87a-30f8-a49d-3adfd052b96e) successfully connected to voice chat
+[17Aug2026 01:34:31.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to -1624.500000, 69.500000, 393.500000]
+[17Aug2026 01:34:47.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to -1514.500000, 126.500000, 435.500000]
+[17Aug2026 01:36:55.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to -1624.500000, 69.500000, 393.500000]
+[17Aug2026 01:37:37.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> se puede hacer jugos
+[17Aug2026 01:37:42.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> con el farmers delight
+[17Aug2026 01:37:47.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <f4tizzz> se puede hacer sushi
+[17Aug2026 01:37:51.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <f4tizzz> :O
+[17Aug2026 01:37:58.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to -1514.500000, 126.500000, 435.500000]
+[17Aug2026 01:38:23.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> y cortar el salmon
+[17Aug2026 01:39:01.683] [SkinRestorer-Fetch-14/WARN] [SkinRestorer/]: Failed to fetch skin 'mojang:GonzaloM369'
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:141) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.YggdrasilSkinProvider.getProfile(YggdrasilSkinProvider.java:50) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.lambda$new$0(MojangSkinProvider.java:43) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.minecraft.server.players.GameProfileCache.m_10993_(GameProfileCache.java:98) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.server.players.GameProfileCache.m_10996_(GameProfileCache.java:150) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.resolveUuid(MojangSkinProvider.java:74) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:40) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:17) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.AbstractSkinProvider.fetchSkin(AbstractSkinProvider.java:52) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md978671$lambda$skinrestorer$fetchSkin$3$1(ServerLoginPacketListenerImpl.java:646) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.skinrestorer$fetchSkin(ServerLoginPacketListenerImpl.java:646) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md978671$lambda$waitForSkin$0$4(ServerLoginPacketListenerImpl.java:595) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[17Aug2026 01:39:01.722] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: fossil:fa_cookable_eggs_to_cooked_egg_from_campfire_cooking removed now.
+[17Aug2026 01:39:01.722] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: fossil:fa_cookable_eggs_to_cooked_egg_from_smoking removed now.
+[17Aug2026 01:39:01.722] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: fossil:fa_cookable_eggs_to_cooked_egg removed now.
+[17Aug2026 01:39:01.723] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: fossil:fa_cookable_eggs_to_cooked_egg_from_smoking removed now.
+[17Aug2026 01:39:01.723] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: fossil:fa_cookable_eggs_to_cooked_egg removed now.
+[17Aug2026 01:39:01.723] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: fossil:fa_cookable_eggs_to_cooked_egg_from_campfire_cooking removed now.
+[17Aug2026 01:39:01.723] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: GonzaloM369[/127.180.140.114:33347] logged in with entity id 79878 at (-746.9722131932184, 63.00018432508894, 1346.5559418308205)
+[17Aug2026 01:39:01.731] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player GonzaloM369
+[17Aug2026 01:39:01.738] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GonzaloM369 joined the game
+[17Aug2026 01:39:02.657] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of GonzaloM369 (20)
+[17Aug2026 01:39:02.657] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to GonzaloM369
+[17Aug2026 01:39:07.217] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 677ace3b-e062-3b07-b08f-468746124fd9
+[17Aug2026 01:39:08.218] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 677ace3b-e062-3b07-b08f-468746124fd9
+[17Aug2026 01:39:08.219] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player GonzaloM369 (677ace3b-e062-3b07-b08f-468746124fd9) successfully connected to voice chat
+[17Aug2026 01:39:54.973] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2054ms or 41 ticks behind
+[17Aug2026 01:40:41.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> gonza vas a hcer la granja de aldeanos?
+[17Aug2026 01:42:11.395] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> si ok entiendo
+[17Aug2026 01:42:23.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GonzaloM369> eeee
+[17Aug2026 01:42:32.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GonzaloM369> si
+[17Aug2026 01:45:10.969] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySkunk['Skunk'/85174, l='ServerLevel[world]', x=-1088.04, y=92.00, z=1445.96]
+[17Aug2026 01:45:11.170] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: Sheep['Sheep'/85179, l='ServerLevel[world]', x=-1088.01, y=90.00, z=1479.74]
+[17Aug2026 01:46:56.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GonzaloM369 has made the advancement [The Cutest Predator]
+[17Aug2026 01:47:14.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: f4tizzz has made the advancement [The Cutest Predator]
+[17Aug2026 01:47:53.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <f4tizzz> mateo
+[17Aug2026 01:47:56.759] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> dime
+[17Aug2026 01:47:58.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <f4tizzz> estas en la casa?
+[17Aug2026 01:48:03.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> sii
+[17Aug2026 01:48:05.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <f4tizzz> en la pampa
+[17Aug2026 01:48:09.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <f4tizzz> yia
+[17Aug2026 01:48:16.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [f4tizzz: Teleported f4tizzz to mateonsio777]
+[17Aug2026 01:48:17.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GonzaloM369: Teleported GonzaloM369 to f4tizzz]
+[17Aug2026 01:48:25.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> fatigonza
+[17Aug2026 01:48:56.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> se pueden subir dos creo
+[17Aug2026 01:48:58.641] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> al camello
+[17Aug2026 01:50:31.803] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of mateonsio777) moved wrongly! 0.2557953672765052
+[17Aug2026 01:50:31.854] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of mateonsio777) moved wrongly! 0.5873366788156318
+[17Aug2026 01:51:04.147] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2028ms or 40 ticks behind
+[17Aug2026 01:51:04.207] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of mateonsio777) moved wrongly! 0.2581445623509353
+[17Aug2026 01:51:04.209] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of mateonsio777) moved wrongly! 0.7718235539497584
+[17Aug2026 01:51:04.255] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of mateonsio777) moved wrongly! 1.3020898739050324
+[17Aug2026 01:51:04.324] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of mateonsio777) moved wrongly! 1.8414838959962196
+[17Aug2026 01:51:04.365] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of mateonsio777) moved wrongly! 0.5122588354956861
+[17Aug2026 01:51:04.408] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of mateonsio777) moved wrongly! 0.5148819729045613
+[17Aug2026 01:51:04.469] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of mateonsio777) moved wrongly! 0.5162855614323405
+[17Aug2026 01:51:04.550] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of mateonsio777) moved wrongly! 0.5170365936690189
+[17Aug2026 01:51:04.615] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of mateonsio777) moved wrongly! 0.5174384560448857
+[17Aug2026 01:51:04.616] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of mateonsio777) moved wrongly! 0.5176534845899425
+[17Aug2026 01:51:04.668] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of mateonsio777) moved wrongly! 1.0674595402122407
+[17Aug2026 01:51:04.711] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of mateonsio777) moved wrongly! 0.517830107044631
+[17Aug2026 01:51:04.755] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of mateonsio777) moved wrongly! 0.5178630492312379
+[17Aug2026 01:51:04.807] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of mateonsio777) moved wrongly! 0.5178806759384997
+[17Aug2026 01:51:04.874] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of mateonsio777) moved wrongly! 0.5178901076380953
+[17Aug2026 01:51:04.924] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of mateonsio777) moved wrongly! 0.5178951543525159
+[17Aug2026 01:51:04.996] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of mateonsio777) moved wrongly! 0.5178978547487816
+[17Aug2026 01:51:05.042] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of mateonsio777) moved wrongly! 0.5178992996769693
+[17Aug2026 01:51:05.089] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of mateonsio777) moved wrongly! 0.5179000728292351
+[17Aug2026 01:51:05.140] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of mateonsio777) moved wrongly! 1.067799113570942
+[17Aug2026 01:51:05.187] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of mateonsio777) moved wrongly! 0.4949889698266361
+[17Aug2026 01:51:05.242] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of mateonsio777) moved wrongly! 0.27663731933569125
+[17Aug2026 01:51:21.413] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2294ms or 45 ticks behind
+[17Aug2026 01:53:48.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> fati
+[17Aug2026 01:53:52.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> me prestas reliquias?
+[17Aug2026 01:53:55.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <f4tizzz> dime
+[17Aug2026 01:54:00.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <f4tizzz> eee
+[17Aug2026 01:54:04.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <f4tizzz> no se si tenemos
+[17Aug2026 01:54:16.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <f4tizzz> como son
+[17Aug2026 01:54:25.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> como tablas arquelogicas
+[17Aug2026 01:54:37.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <f4tizzz> tenemos 4 creo
+[17Aug2026 01:54:39.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <f4tizzz> ven
+[17Aug2026 01:54:44.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to f4tizzz]
+[17Aug2026 01:55:01.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> va me las llevo gracias
+[17Aug2026 01:55:05.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <f4tizzz> okiss
+[17Aug2026 01:55:06.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to -1514.500000, 126.500000, 435.500000]
+[17Aug2026 01:58:41.102] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of mateonsio777) moved wrongly! 0.2551396396480925
+[17Aug2026 01:58:41.164] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of mateonsio777) moved wrongly! 0.7357938860183424
+[17Aug2026 01:58:41.212] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of mateonsio777) moved wrongly! 1.2468950286526024
+[17Aug2026 01:59:02.604] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@372463dc[id=<null>,name=Za0lly,properties={},legacy=false] (/127.173.197.184:45461) lost connection: Disconnected
+[17Aug2026 02:03:36.533] [Netty Epoll Server IO #6/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [morehitboxes:main,alexsmobs:main_channel,s_a_b:s_a_b,ritchiesprojectilelib:network,dragonsofberk:main,mowziesmobs:net,rats:channel,citadel:main_channel,geckolib:main,createbigcannons:network] rejected their client side version number
+[17Aug2026 02:03:36.533] [Netty Epoll Server IO #6/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[17Aug2026 02:03:36.546] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@397907a[id=<null>,name=Za0lly,properties={},legacy=false] (/127.173.197.184:55373) lost connection: Connection closed - mismatched mod channel list
+[17Aug2026 02:03:55.939] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@4b852ac2[id=<null>,name=Za0lly,properties={},legacy=false] (/127.173.197.184:34409) lost connection: Disconnected
+[17Aug2026 02:04:07.090] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@49e20d5a[id=<null>,name=Za0lly,properties={},legacy=false] (/127.173.197.184:55509) lost connection: Disconnected
+[17Aug2026 02:04:12.843] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@487a8298[id=<null>,name=Za0lly,properties={},legacy=false] (/127.173.197.184:56187) lost connection: Disconnected
+[17Aug2026 02:04:15.869] [Netty Epoll Server IO #6/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [morehitboxes:main,alexsmobs:main_channel,s_a_b:s_a_b,ritchiesprojectilelib:network,dragonsofberk:main,mowziesmobs:net,rats:channel,citadel:main_channel,geckolib:main,createbigcannons:network] rejected their client side version number
+[17Aug2026 02:04:15.870] [Netty Epoll Server IO #6/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[17Aug2026 02:04:15.893] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@7bc95d12[id=<null>,name=Za0lly,properties={},legacy=false] (/127.173.197.184:34457) lost connection: Connection closed - mismatched mod channel list
+[17Aug2026 02:04:27.693] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@72cff805[id=<null>,name=Za0lly,properties={},legacy=false] (/127.173.197.184:48547) lost connection: Disconnected
+[17Aug2026 02:04:47.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> que
+[17Aug2026 02:04:49.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> holaaca
+[17Aug2026 02:04:53.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> sigue de frente
+[17Aug2026 02:05:00.790] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@66d4ac77[id=<null>,name=Za0lly,properties={},legacy=false] (/127.173.197.184:33659) lost connection: Disconnected
+[17Aug2026 02:05:31.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> okei gracias si
+[17Aug2026 02:05:33.892] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@79bdfc05[id=<null>,name=Za0lly,properties={},legacy=false] (/127.173.197.184:51843) lost connection: Disconnected
+[17Aug2026 02:05:37.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> estoy haciendo su casa d mi camello
+[17Aug2026 02:05:47.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> SON UN MONTON
+[17Aug2026 02:05:48.300] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@1a39663[id=<null>,name=Za0lly,properties={},legacy=false] (/127.173.197.184:35577) lost connection: Disconnected
+[17Aug2026 02:05:50.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> tiene que ser grande
+[17Aug2026 02:05:55.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> son 5
+[17Aug2026 02:06:06.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> dejalos
+[17Aug2026 02:07:04.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: antares has reached the goal [Dinner's Served!]
+[17Aug2026 02:10:47.442] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@6204359[id=<null>,name=Za0lly,properties={},legacy=false] (/127.173.197.184:52167) lost connection: Disconnected
+[17Aug2026 02:12:12.739] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@3c504b51[id=<null>,name=Za0lly,properties={},legacy=false] (/127.173.197.184:33465) lost connection: Disconnected
+[17Aug2026 02:12:36.143] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@30a252cd[id=<null>,name=Za0lly,properties={},legacy=false] (/127.173.197.184:53309) lost connection: Disconnected
+[17Aug2026 02:12:45.695] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@3ce4a2a8[id=<null>,name=Za0lly,properties={},legacy=false] (/127.173.197.184:53203) lost connection: Disconnected
+[17Aug2026 02:12:48.053] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@2f8434b9[id=<null>,name=Za0lly,properties={},legacy=false] (/127.173.197.184:55507) lost connection: Disconnected
+[17Aug2026 02:17:48.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> y ese gorro
+[17Aug2026 02:17:58.343] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> esta bonito
+[17Aug2026 02:17:59.759] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> .
+[17Aug2026 02:18:00.796] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: antares has made the advancement [Ol' Betsy]
+[17Aug2026 02:18:06.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> me olvide
+[17Aug2026 02:18:18.640] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> dani esta fria
+[17Aug2026 02:18:35.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> okei tu chambea
+[17Aug2026 02:18:39.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> luego voy por madera
+[17Aug2026 02:18:52.343] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> oye le pones comida
+[17Aug2026 02:18:54.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> le pones hojas ya
+[17Aug2026 02:18:58.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> al elefante
+[17Aug2026 02:18:59.142] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@30c26215[id=<null>,name=Za0lly,properties={},legacy=false] (/127.173.197.184:46253) lost connection: Disconnected
+[17Aug2026 02:19:07.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: antares was doomed to fall by Ghast
+[17Aug2026 02:19:33.291] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@3ca2a065[id=<null>,name=Za0lly,properties={},legacy=false] (/127.173.197.184:40031) lost connection: Disconnected
+[17Aug2026 02:20:13.446] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@545b7207[id=<null>,name=Za0lly,properties={},legacy=false] (/127.173.197.184:33889) lost connection: Disconnected
+[17Aug2026 02:20:14.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> pero en su comedero ponle
+[17Aug2026 02:20:16.105] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@378ff98e[id=<null>,name=Za0lly,properties={},legacy=false] (/127.173.197.184:50175) lost connection: Disconnected
+[17Aug2026 02:20:17.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> esta vacio
+[17Aug2026 02:21:19.389] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> tiralos
+[17Aug2026 02:21:21.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> mientras mas mejor
+[17Aug2026 02:21:24.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> PERO ACA NO
+[17Aug2026 02:23:22.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> una parte de la casa
+[17Aug2026 02:23:24.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> sera suya
+[17Aug2026 02:23:31.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> de los emus
+[17Aug2026 02:25:44.442] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@5de2a0f[id=<null>,name=Za0lly,properties={},legacy=false] (/127.173.197.184:33395) lost connection: Disconnected
+[17Aug2026 02:27:01.097] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of mateonsio777) moved wrongly! 0.28393667942168577
+[17Aug2026 02:27:01.150] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of mateonsio777) moved wrongly! 0.5779006050386215
+[17Aug2026 02:27:01.198] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of mateonsio777) moved wrongly! 0.8977460494014053
+[17Aug2026 02:29:51.664] [SkinRestorer-Fetch-15/WARN] [SkinRestorer/]: Failed to fetch skin 'mojang:Za0lly'
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:141) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.YggdrasilSkinProvider.getProfile(YggdrasilSkinProvider.java:50) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.lambda$new$0(MojangSkinProvider.java:43) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.minecraft.server.players.GameProfileCache.m_10993_(GameProfileCache.java:98) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.server.players.GameProfileCache.m_10996_(GameProfileCache.java:150) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.resolveUuid(MojangSkinProvider.java:74) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:40) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:17) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.AbstractSkinProvider.fetchSkin(AbstractSkinProvider.java:52) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md978671$lambda$skinrestorer$fetchSkin$3$1(ServerLoginPacketListenerImpl.java:646) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.skinrestorer$fetchSkin(ServerLoginPacketListenerImpl.java:646) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md978671$lambda$waitForSkin$0$4(ServerLoginPacketListenerImpl.java:595) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[17Aug2026 02:29:51.673] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Za0lly[/127.173.197.184:34227] logged in with entity id 116013 at (4.5, 89.0, 11.5)
+[17Aug2026 02:29:51.682] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Za0lly
+[17Aug2026 02:29:51.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Za0lly joined the game
+[17Aug2026 02:29:52.407] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Za0lly (20)
+[17Aug2026 02:29:52.407] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Za0lly
+[17Aug2026 02:29:55.268] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player fe7c97c0-2965-3341-a677-e764dc69cf72
+[17Aug2026 02:29:55.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <f4tizzz> SIIIIIIIIIIIIIII
+[17Aug2026 02:29:56.276] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player fe7c97c0-2965-3341-a677-e764dc69cf72
+[17Aug2026 02:29:56.277] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Za0lly (fe7c97c0-2965-3341-a677-e764dc69cf72) successfully connected to voice chat
+[17Aug2026 02:29:59.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <f4tizzz> SALOOOOOOOOOOOOOOOOOOOOOOOOO
+[17Aug2026 02:30:05.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> holi salo
+[17Aug2026 02:31:18.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GonzaloM369> -1000 68 60
+[17Aug2026 02:31:40.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to -997.500000, 68.500000, 76.500000]
+[17Aug2026 02:31:52.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to -1514.500000, 126.500000, 435.500000]
+[17Aug2026 02:35:47.646] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2027ms or 40 ticks behind
+[17Aug2026 02:36:07.772] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5154ms or 103 ticks behind
+[17Aug2026 02:38:50.917] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Za0lly has made the advancement [Monster Hunter]
+[17Aug2026 02:38:54.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Za0lly was shot by Skeleton
+[17Aug2026 02:39:42.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to -1514.500000, 126.500000, 435.500000]
+[17Aug2026 02:43:11.447] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> a
+[17Aug2026 02:44:27.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: antares was shot by Deadly Nadder
+[17Aug2026 02:46:05.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to -870.500000, 64.500000, 288.500000]
+[17Aug2026 02:47:06.372] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[17Aug2026 02:48:31.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Za0lly has made the advancement [It's an Emu!!!]
+[17Aug2026 02:49:21.796] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Za0lly has made the advancement [Stone Age]
+[17Aug2026 02:58:46.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> q paso
+[17Aug2026 02:58:50.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> holi salo
+[17Aug2026 02:58:59.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> si la escucho
+[17Aug2026 02:59:03.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> pero por el microfono d fati
+[17Aug2026 02:59:25.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> allá
+[17Aug2026 03:00:56.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: antares was slain by Zombie
+[17Aug2026 03:01:19.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Za0lly has made the advancement [Sweet Dreams]
+[17Aug2026 03:01:49.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to -867.500000, 66.500000, 319.500000]
+[17Aug2026 03:02:11.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Za0lly has made the advancement [Alex's Mobs]
+[17Aug2026 03:02:41.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to -1514.500000, 126.500000, 435.500000]
+[17Aug2026 03:03:06.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <f4tizzz> andre
+[17Aug2026 03:03:11.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> dime
+[17Aug2026 03:03:20.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <f4tizzz> pasa coordenadas de tu casa
+[17Aug2026 03:03:23.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <f4tizzz> para salo
+[17Aug2026 03:03:32.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> xaero-waypoint:base:B:-1515:126:435:11:false:0:Internal-overworld-waypoints
+[17Aug2026 03:03:36.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> si sale?
+[17Aug2026 03:03:53.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <f4tizzz> siis
+[17Aug2026 03:03:59.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Za0lly> temkiu
+[17Aug2026 03:04:05.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> tienen una silla de montar por ahi xd?
+[17Aug2026 03:04:12.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> yo tengo
+[17Aug2026 03:04:14.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> t vendo
+[17Aug2026 03:04:21.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> que quieres por ella
+[17Aug2026 03:04:27.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> dos diamantes
+[17Aug2026 03:04:30.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> va
+[17Aug2026 03:04:31.252] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> es que no tengo
+[17Aug2026 03:04:41.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to mateonsio777]
+[17Aug2026 03:04:57.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> graciass
+[17Aug2026 03:04:59.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> DEJALOS
+[17Aug2026 03:07:07.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> holi
+[17Aug2026 03:07:09.641] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> si
+[17Aug2026 03:07:21.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> pollo
+[17Aug2026 03:07:28.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> lo dice en el libro
+[17Aug2026 03:08:38.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> hay un dragon cerca a tu base
+[17Aug2026 03:08:40.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> por si quieres
+[17Aug2026 03:09:29.500] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2032ms or 40 ticks behind
+[17Aug2026 03:11:32.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> traigo mas madera?
+[17Aug2026 03:11:42.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> .
+[17Aug2026 03:11:51.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> que traigo entonces
+[17Aug2026 03:11:53.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> o ya nada
+[17Aug2026 03:11:54.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> solo miro
+[17Aug2026 03:30:03.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> van a necesitar piedra?
+[17Aug2026 03:30:05.453] [Server thread/INFO] [DragonPortal/]: [dragonPortal] changeDimension dragon id=146425 minecraft:overworld → minecraft:the_nether passengers=0
+[17Aug2026 03:30:05.454] [Server thread/INFO] [DragonPortal/]: [dragonPortal] follow post-dim: dragon ffe8c8f3-9be6-419d-a2da-3557a8cb35a6 → ok id=161929
+[17Aug2026 03:30:05.556] [Server thread/INFO] [DragonPortal/]: [dragonPortal] changeDimension dragon id=161929 minecraft:the_nether → minecraft:overworld passengers=1
+[17Aug2026 03:30:05.626] [Server thread/INFO] [DragonPortal/]: [dragonPortal] TP player antares to minecraft:overworld → true
+[17Aug2026 03:30:05.626] [Server thread/INFO] [DragonPortal/]: [dragonPortal] startRiding player antares on dragon id=161950 → true
+[17Aug2026 03:30:05.706] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 1318.9322449812876,-49.0,-379.0
+[17Aug2026 03:30:17.642] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to Za0lly]
+[17Aug2026 03:30:30.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Za0lly has made the advancement [We Need to Go Deeper]
+[17Aug2026 03:30:36.786] [Server thread/INFO] [DragonPortal/]: [dragonPortal] changeDimension dragon id=161950 minecraft:overworld → minecraft:the_nether passengers=0
+[17Aug2026 03:30:36.786] [Server thread/INFO] [DragonPortal/]: [dragonPortal] follow post-dim: dragon ffe8c8f3-9be6-419d-a2da-3557a8cb35a6 → ok id=162425
+[17Aug2026 03:32:21.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <f4tizzz> arclla
+[17Aug2026 03:32:24.259] [Server thread/INFO] [DragonPortal/]: [dragonPortal] changeDimension dragon id=162425 minecraft:the_nether → minecraft:overworld passengers=0
+[17Aug2026 03:32:24.260] [Server thread/INFO] [DragonPortal/]: [dragonPortal] follow post-dim: dragon ffe8c8f3-9be6-419d-a2da-3557a8cb35a6 → ok id=163070
+[17Aug2026 03:32:24.415] [Server thread/INFO] [DragonPortal/]: [dragonPortal] changeDimension dragon id=163070 minecraft:overworld → minecraft:the_nether passengers=1
+[17Aug2026 03:32:24.447] [Server thread/INFO] [DragonPortal/]: [dragonPortal] TP player antares to minecraft:the_nether → true
+[17Aug2026 03:32:24.447] [Server thread/INFO] [DragonPortal/]: [dragonPortal] startRiding player antares on dragon id=163090 → true
+[17Aug2026 03:32:24.459] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! -1318.8734952750942,49.0,379.0
+[17Aug2026 03:32:31.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <f4tizzz> bloques de musgo tmb
+[17Aug2026 03:32:44.555] [Server thread/INFO] [DragonPortal/]: [dragonPortal] changeDimension dragon id=163090 minecraft:the_nether → minecraft:overworld passengers=0
+[17Aug2026 03:32:44.555] [Server thread/INFO] [DragonPortal/]: [dragonPortal] follow post-dim: dragon ffe8c8f3-9be6-419d-a2da-3557a8cb35a6 → ok id=163235
+[17Aug2026 03:32:44.686] [Server thread/INFO] [DragonPortal/]: [dragonPortal] changeDimension dragon id=163235 minecraft:overworld → minecraft:the_nether passengers=1
+[17Aug2026 03:32:44.726] [Server thread/INFO] [DragonPortal/]: [dragonPortal] TP player antares to minecraft:the_nether → true
+[17Aug2026 03:32:44.726] [Server thread/INFO] [DragonPortal/]: [dragonPortal] startRiding player antares on dragon id=163257 → true
+[17Aug2026 03:32:47.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> tendria q buscar
+[17Aug2026 03:32:50.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> una cuena
+[17Aug2026 03:32:52.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> cueva
+[17Aug2026 03:32:52.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <f4tizzz> BUSCA PE
+[17Aug2026 03:32:54.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> .
+[17Aug2026 03:33:18.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GonzaloM369> -888 95 1548
+[17Aug2026 03:33:22.699] [Server thread/INFO] [DragonPortal/]: [dragonPortal] changeDimension dragon id=163257 minecraft:the_nether → minecraft:overworld passengers=0
+[17Aug2026 03:33:22.700] [Server thread/INFO] [DragonPortal/]: [dragonPortal] follow post-dim: dragon ffe8c8f3-9be6-419d-a2da-3557a8cb35a6 → ok id=163454
+[17Aug2026 03:33:22.882] [Server thread/INFO] [DragonPortal/]: [dragonPortal] changeDimension dragon id=163454 minecraft:overworld → minecraft:the_nether passengers=1
+[17Aug2026 03:33:22.914] [Server thread/INFO] [DragonPortal/]: [dragonPortal] TP player antares to minecraft:the_nether → true
+[17Aug2026 03:33:22.914] [Server thread/INFO] [DragonPortal/]: [dragonPortal] startRiding player antares on dragon id=163475 → true
+[17Aug2026 03:33:29.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> que hay ahi
+[17Aug2026 03:33:32.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GonzaloM369> por ahi hay musgo en las cuevas
+[17Aug2026 03:33:37.608] [Server thread/INFO] [DragonPortal/]: [dragonPortal] changeDimension dragon id=163475 minecraft:the_nether → minecraft:overworld passengers=0
+[17Aug2026 03:33:37.609] [Server thread/INFO] [DragonPortal/]: [dragonPortal] follow post-dim: dragon ffe8c8f3-9be6-419d-a2da-3557a8cb35a6 → ok id=163562
+[17Aug2026 03:33:37.609] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to f4tizzz]
+[17Aug2026 03:33:44.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GonzaloM369> y cerca de ahi tambien hay jungla
+[17Aug2026 03:33:50.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> okei ahi void
+[17Aug2026 03:35:08.100] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to Za0lly]
+[17Aug2026 03:35:08.136] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved wrongly! 919.4341521361141
+[17Aug2026 03:35:14.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to Za0lly]
+[17Aug2026 03:35:14.831] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved wrongly! 925.8994455244233
+[17Aug2026 03:35:19.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported Za0lly to antares]
+[17Aug2026 03:37:00.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to f4tizzz]
+[17Aug2026 03:39:43.845] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Za0lly lost connection: Timed out
+[17Aug2026 03:39:43.845] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Za0lly left the game
+[17Aug2026 03:39:43.846] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Za0lly
+[17Aug2026 03:40:21.200] [SkinRestorer-Fetch-16/WARN] [SkinRestorer/]: Failed to fetch skin 'mojang:Za0lly'
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:141) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.YggdrasilSkinProvider.getProfile(YggdrasilSkinProvider.java:50) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.lambda$new$0(MojangSkinProvider.java:43) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.minecraft.server.players.GameProfileCache.m_10993_(GameProfileCache.java:98) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.server.players.GameProfileCache.m_10996_(GameProfileCache.java:150) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.resolveUuid(MojangSkinProvider.java:74) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:40) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:17) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.AbstractSkinProvider.fetchSkin(AbstractSkinProvider.java:52) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md978671$lambda$skinrestorer$fetchSkin$3$1(ServerLoginPacketListenerImpl.java:646) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.skinrestorer$fetchSkin(ServerLoginPacketListenerImpl.java:646) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md978671$lambda$waitForSkin$0$4(ServerLoginPacketListenerImpl.java:595) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[17Aug2026 03:40:21.244] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Za0lly[/127.173.197.184:60739] logged in with entity id 166760 at (-1158.886988253387, 69.0, 76.85464648555669)
+[17Aug2026 03:40:21.252] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Za0lly
+[17Aug2026 03:40:21.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Za0lly joined the game
+[17Aug2026 03:40:21.470] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Za0lly (20)
+[17Aug2026 03:40:21.470] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Za0lly
+[17Aug2026 03:40:22.762] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player fe7c97c0-2965-3341-a677-e764dc69cf72
+[17Aug2026 03:40:23.765] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player fe7c97c0-2965-3341-a677-e764dc69cf72
+[17Aug2026 03:40:23.766] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Za0lly (fe7c97c0-2965-3341-a677-e764dc69cf72) successfully connected to voice chat
+[17Aug2026 03:40:26.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to Za0lly]
+[17Aug2026 03:40:26.275] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved wrongly! 122.10583046033292
+[17Aug2026 03:40:26.316] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 120.71777463470403,2.0,-18.358995605761685
+[17Aug2026 03:40:26.398] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 120.71777463470403,2.0,-18.358995605761685
+[17Aug2026 03:40:26.466] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 120.71777463470403,2.0,-18.358995605761685
+[17Aug2026 03:40:26.494] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 120.71777463470403,2.0,-18.358995605761685
+[17Aug2026 03:40:26.501] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 120.71777463470403,2.0,-18.358995605761685
+[17Aug2026 03:40:26.566] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 120.71777463470403,2.0,-18.358995605761685
+[17Aug2026 03:43:06.471] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[17Aug2026 03:45:07.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to Za0lly]
+[17Aug2026 03:47:04.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [f4tizzz: Teleported f4tizzz to Za0lly]
+[17Aug2026 03:47:53.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [f4tizzz: Teleported f4tizzz to GonzaloM369]
+[17Aug2026 03:48:05.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> tienen musgo?
+[17Aug2026 03:48:09.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <f4tizzz> no
+[17Aug2026 03:48:11.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <f4tizzz> por eso
+[17Aug2026 03:48:14.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> ni unito?
+[17Aug2026 03:48:22.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <f4tizzz> no
+[17Aug2026 03:48:27.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> si le pones polvo de hueso sale mas
+[17Aug2026 03:48:28.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <f4tizzz> necesitamos un stack
+[17Aug2026 03:50:29.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Za0lly was burnt to a crisp whilst fighting antares
+[17Aug2026 03:50:45.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported Za0lly to antares]
+[17Aug2026 03:50:46.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <f4tizzz> MATEO ARCILLA
+[17Aug2026 03:50:55.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> ESO ESTOY SACANDO
+[17Aug2026 03:50:59.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <f4tizzz> SACA SACA
+[17Aug2026 03:55:58.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[17Aug2026 03:55:58.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: skin set<--[HERE]
+[17Aug2026 03:57:46.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Za0lly has made the advancement [Getting an Upgrade]
+[17Aug2026 03:58:49.281] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mateonsio777 has made the advancement [Tactical Fishing]
+[17Aug2026 03:58:56.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> okay listo
+[17Aug2026 03:59:01.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> andre mehaces tp
+[17Aug2026 03:59:04.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> a fati o a gonza
+[17Aug2026 03:59:09.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> porfas
+[17Aug2026 03:59:58.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> -
+[17Aug2026 04:00:01.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <f4tizzz> .
+[17Aug2026 04:00:24.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GonzaloM369: Teleported mateonsio777 to f4tizzz]
+[17Aug2026 04:00:25.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> fati me tepeas
+[17Aug2026 04:00:27.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> HOLA
+[17Aug2026 04:00:32.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <f4tizzz> OLA
+[17Aug2026 04:00:57.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> esta bonita
+[17Aug2026 04:01:15.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> t di dos stacks
+[17Aug2026 04:02:06.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> fati encontre un hamster
+[17Aug2026 04:02:11.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <f4tizzz> donde
+[17Aug2026 04:02:14.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <f4tizzz> DONDEEEEEEEEEE
+[17Aug2026 04:02:18.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported f4tizzz to antares]
+[17Aug2026 04:02:31.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> es una rata con la plaga
+[17Aug2026 04:02:35.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Za0lly has made the advancement [Digging Deep]
+[17Aug2026 04:03:40.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: antares has made the advancement [Begun, The Emu War Has]
+[17Aug2026 04:03:54.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> PQ PUSIERON PARARRAYOS
+[17Aug2026 04:04:08.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: f4tizzz was slain by Deadly Nadder
+[17Aug2026 04:04:11.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <mateonsio777> si cae un rayo se quema todo
+[17Aug2026 04:04:13.890] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> que fue
+[17Aug2026 04:04:20.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [f4tizzz: Teleported f4tizzz to antares]
+[17Aug2026 04:04:20.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported f4tizzz to antares]
+[17Aug2026 04:04:51.343] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: mateonsio777 lost connection: Disconnected
+[17Aug2026 04:04:51.344] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mateonsio777 left the game
+[17Aug2026 04:04:51.344] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client mateonsio777
+[17Aug2026 04:05:49.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [f4tizzz: Teleported f4tizzz to GonzaloM369]
+[17Aug2026 04:05:57.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> paso paso paso
+[17Aug2026 04:06:01.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <f4tizzz> BASTA
+[17Aug2026 04:06:54.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> encontre extreme hills
+[17Aug2026 04:07:11.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <f4tizzz> q es eso
+[17Aug2026 04:07:16.669] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:07:16.669] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:07:16.669] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:07:16.669] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:07:16.669] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:07:16.669] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:07:16.669] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:07:16.669] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_leader
+[17Aug2026 04:07:16.670] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger
+[17Aug2026 04:07:16.670] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger
+[17Aug2026 04:07:20.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> el bioma de los super arboles
+[17Aug2026 04:07:24.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> de abeto
+[17Aug2026 04:07:30.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Za0lly> DONDEE
+[17Aug2026 04:07:38.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> hago tp?
+[17Aug2026 04:07:45.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Za0lly> CI
+[17Aug2026 04:07:50.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported Za0lly to antares]
+[17Aug2026 04:08:48.754] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> fati te gustan las babosas?
+[17Aug2026 04:08:53.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <f4tizzz> no
+[17Aug2026 04:09:00.040] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> bajoterragod
+[17Aug2026 04:09:05.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> no le sabes
+[17Aug2026 04:09:08.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <f4tizzz> LAS DE BAJOTERRA?
+[17Aug2026 04:09:10.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <f4tizzz> SIII
+[17Aug2026 04:09:12.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> parecen
+[17Aug2026 04:09:28.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported f4tizzz to antares]
+[17Aug2026 04:10:08.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: f4tizzz has made the advancement [Convergent Evolution...]
+[17Aug2026 04:10:17.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: antares has made the advancement [Convergent Evolution...]
+[17Aug2026 04:10:55.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [f4tizzz: Teleported f4tizzz to GonzaloM369]
+[17Aug2026 04:11:25.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> mas al fondo esta el bioma de mansion salo
+[17Aug2026 04:11:32.344] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> el de las setas y arboles
+[17Aug2026 04:11:50.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Za0lly> tp
+[17Aug2026 04:11:58.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported Za0lly to antares]
+[17Aug2026 04:14:05.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> salo ya encontre el dragon para ti
+[17Aug2026 04:14:14.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> es todo pequeño y azulito
+[17Aug2026 04:14:36.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to Za0lly]
+[17Aug2026 04:16:52.073] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2054ms or 41 ticks behind
+[17Aug2026 04:17:54.887] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved wrongly! 0.27487524698290144
+[17Aug2026 04:17:54.929] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved wrongly! 0.37145155694361165
+[17Aug2026 04:17:54.997] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved wrongly! 0.816242339107248
+[17Aug2026 04:17:55.013] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved wrongly! 1.2608089071236463
+[17Aug2026 04:17:55.160] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved wrongly! 0.30412750455843707
+[17Aug2026 04:17:55.217] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved wrongly! 0.801584938970791
+[17Aug2026 04:17:55.274] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved wrongly! 1.2221621204239455
+[17Aug2026 04:17:57.924] [Worker-Main-1/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:17:57.924] [Worker-Main-1/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:17:57.924] [Worker-Main-1/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:17:57.924] [Worker-Main-1/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:17:57.924] [Worker-Main-1/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:17:57.925] [Worker-Main-1/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:17:57.925] [Worker-Main-1/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:17:57.926] [Worker-Main-1/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_leader
+[17Aug2026 04:17:57.926] [Worker-Main-1/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger
+[17Aug2026 04:17:57.926] [Worker-Main-1/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger
+[17Aug2026 04:20:12.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> encontre un perro
+[17Aug2026 04:20:55.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> era mono
+[17Aug2026 04:22:06.035] [Worker-Main-1/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:22:06.035] [Worker-Main-1/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:22:06.035] [Worker-Main-1/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:22:06.035] [Worker-Main-1/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:22:06.035] [Worker-Main-1/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:22:06.035] [Worker-Main-1/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:22:06.035] [Worker-Main-1/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:22:06.035] [Worker-Main-1/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:22:06.036] [Worker-Main-1/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:22:06.036] [Worker-Main-1/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:22:06.036] [Worker-Main-1/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_leader
+[17Aug2026 04:22:06.036] [Worker-Main-1/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger
+[17Aug2026 04:22:06.036] [Worker-Main-1/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger
+[17Aug2026 04:24:30.826] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:24:30.826] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:24:30.826] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:24:30.826] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:24:30.826] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:24:30.826] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:24:30.827] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:24:30.827] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:24:30.827] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_leader
+[17Aug2026 04:24:30.827] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger
+[17Aug2026 04:24:30.827] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger
+[17Aug2026 04:25:19.931] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:25:19.932] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:25:19.932] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:25:19.932] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:25:19.932] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:25:19.932] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:25:19.932] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:25:19.932] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:25:19.932] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_leader
+[17Aug2026 04:25:19.932] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger
+[17Aug2026 04:25:19.933] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger
+[17Aug2026 04:25:24.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GonzaloM369 fell from a high place
+[17Aug2026 04:25:38.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GonzaloM369: Teleported GonzaloM369 to f4tizzz]
+[17Aug2026 04:28:04.591] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2019ms or 40 ticks behind
+[17Aug2026 04:28:08.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> a
+[17Aug2026 04:28:21.808] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2239ms or 44 ticks behind
+[17Aug2026 04:29:29.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> fati encontre capibaras creo
+[17Aug2026 04:29:36.343] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <f4tizzz> que
+[17Aug2026 04:29:40.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <f4tizzz> PASA COORDINADAS
+[17Aug2026 04:29:47.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <f4tizzz> coordenas
+[17Aug2026 04:29:52.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> -3617 72 -3310
+[17Aug2026 04:30:00.724] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: fossil:tar_site/tent_options
+[17Aug2026 04:30:01.084] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 7.010121962178346,3.25,-6.7223164097504196
+[17Aug2026 04:30:01.085] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 7.325487574601993,3.5,-7.431447085885793
+[17Aug2026 04:30:01.085] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 7.596100083318106,3.75,-8.161977400944124
+[17Aug2026 04:30:01.086] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 7.829471525645204,4.0,-8.905504864015711
+[17Aug2026 04:30:01.086] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 8.032830511156135,4.25,-9.657978874923174
+[17Aug2026 04:30:01.087] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 8.212163704837621,4.5,-10.416753491360396
+[17Aug2026 04:30:01.087] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 8.372333100019205,4.75,-11.18003484576866
+[17Aug2026 04:30:01.088] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 8.399030834437326,5.0,-11.960178934301439
+[17Aug2026 04:30:01.088] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 8.314126483849577,5.25,-12.737563014902207
+[17Aug2026 04:30:01.088] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 8.138879935473142,5.5,-13.5015580467566
+[17Aug2026 04:30:01.089] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 7.891812604892493,5.75,-14.247614164381957
+[17Aug2026 04:30:01.089] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 7.5881463968962635,6.0,-14.974843295574829
+[17Aug2026 04:30:01.090] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 7.240004178624531,6.25,-15.684335705807825
+[17Aug2026 04:30:01.090] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 6.856886084118742,6.5,-16.378101343302205
+[17Aug2026 04:30:01.090] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 6.446183852419836,6.75,-17.058452367109112
+[17Aug2026 04:30:01.091] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 6.013637915912113,7.0,-17.72766868359122
+[17Aug2026 04:30:01.091] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 5.563711274497564,7.25,-18.387834292178468
+[17Aug2026 04:30:01.091] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 5.099883222014796,7.5,-19.040771840004254
+[17Aug2026 04:30:01.092] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 4.624875633081501,7.75,-19.68803083147577
+[17Aug2026 04:30:01.092] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 4.140825854046398,8.0,-20.33090313045477
+[17Aug2026 04:30:01.092] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 3.6494185483506953,8.25,-20.97045064368649
+[17Aug2026 04:30:01.093] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 3.1519864149677232,8.5,-21.607536829652418
+[17Aug2026 04:30:01.093] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 2.649587410266122,8.75,-22.242857644846026
+[17Aug2026 04:30:01.093] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 2.1430642232348873,9.0,-22.876969821293187
+[17Aug2026 04:30:01.094] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 1.6330903001744446,9.25,-23.510315647890366
+[17Aug2026 04:30:01.094] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 1.1202056239817466,9.5,-24.143244117983613
+[17Aug2026 04:30:01.094] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 0.6048446456538841,9.75,-24.776028654604488
+[17Aug2026 04:30:01.095] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 0.08735817068009055,10.0,-25.408881780171214
+[17Aug2026 04:30:01.095] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! -0.43196943585462577,10.25,-26.04196714596219
+[17Aug2026 04:30:01.095] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! -0.8441499891755484,10.5,-26.746136147607558
+[17Aug2026 04:30:01.095] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! -1.1615886436306937,10.75,-27.495433718290315
+[17Aug2026 04:30:01.096] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! -1.3988752309032861,11.0,-28.27207658719726
+[17Aug2026 04:30:01.097] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! -1.5701685715771418,11.25,-29.06449503541171
+[17Aug2026 04:30:01.097] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! -1.6880232463508946,11.5,-29.865442750639886
+[17Aug2026 04:30:01.102] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2284ms or 45 ticks behind
+[17Aug2026 04:30:01.147] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! -8.404781789986828,8.75,-24.625097951617136
+[17Aug2026 04:30:01.192] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! -8.445675131079042,9.0,-25.431728506428954
+[17Aug2026 04:30:02.437] [Worker-Main-1/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: fossil:tar_site/tent_options
+[17Aug2026 04:30:10.487] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:30:10.487] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:30:10.488] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:30:10.488] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:30:10.488] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:30:10.488] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:30:10.488] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:30:10.488] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:30:10.489] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_leader
+[17Aug2026 04:30:10.489] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger
+[17Aug2026 04:30:10.489] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger
+[17Aug2026 04:31:00.616] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:31:00.617] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:31:00.617] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:31:00.617] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:31:00.617] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:31:00.617] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:31:00.617] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:31:00.617] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:31:00.617] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_leader
+[17Aug2026 04:31:00.617] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger
+[17Aug2026 04:31:00.617] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger
+[17Aug2026 04:31:42.547] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/218509, l='ServerLevel[world]', x=-3731.48, y=63.00, z=-3573.62] died, message: 'Nitwit was slain by Triple Stryke'
+[17Aug2026 04:32:26.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GonzaloM369: Teleported Za0lly to GonzaloM369]
+[17Aug2026 04:33:25.561] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 5.365383263408148,-0.8708094007126164,-8.94057725466837
+[17Aug2026 04:33:25.562] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 5.811601771813457,-0.9554811423436149,-9.684968163345275
+[17Aug2026 04:33:25.562] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 6.258071754972661,-1.0415002652416376,-10.429026602327667
+[17Aug2026 04:33:25.563] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 6.704777878198911,-1.1286768030158072,-11.172779888494006
+[17Aug2026 04:33:25.563] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 7.1517099028319535,-1.2168285468903974,-11.916253343130847
+[17Aug2026 04:33:25.564] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 7.598860771732689,-1.3057958563085208,-12.65946921937757
+[17Aug2026 04:33:25.564] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 8.046210971423989,-1.3954532816896545,-13.402454252864572
+[17Aug2026 04:33:25.565] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 8.493745961144214,-1.4856857923689546,-14.14523171572182
+[17Aug2026 04:34:27.275] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:34:27.275] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:34:27.275] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:34:27.276] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:34:27.276] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:34:27.276] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:34:27.276] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:34:27.276] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:34:27.276] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_leader
+[17Aug2026 04:34:27.276] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger
+[17Aug2026 04:34:27.276] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger
+[17Aug2026 04:34:37.876] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:34:37.876] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:34:37.876] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:34:37.876] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:34:37.876] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:34:37.876] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:34:37.876] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 04:34:37.876] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_leader
+[17Aug2026 04:34:37.877] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger
+[17Aug2026 04:34:37.877] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger
+[17Aug2026 04:34:42.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> encontre el boss de nieve
+[17Aug2026 04:38:13.345] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to -1514.500000, 126.500000, 435.500000]
+[17Aug2026 04:39:36.407] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2088ms or 41 ticks behind
+[17Aug2026 04:39:53.424] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2055ms or 41 ticks behind
+[17Aug2026 04:45:53.170] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1033, y=72, z=82} BlockPos{x=-1032, y=71, z=81}
+[17Aug2026 04:51:08.025] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[17Aug2026 04:57:47.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GonzaloM369 hit the ground too hard
+[17Aug2026 04:57:55.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GonzaloM369: Teleported GonzaloM369 to f4tizzz]
+[17Aug2026 05:00:30.400] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Za0lly lost connection: Disconnected
+[17Aug2026 05:00:30.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Za0lly left the game
+[17Aug2026 05:00:30.401] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Za0lly
+[17Aug2026 05:01:20.656] [SkinRestorer-Fetch-17/WARN] [SkinRestorer/]: Failed to fetch skin 'mojang:Za0lly'
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:141) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.YggdrasilSkinProvider.getProfile(YggdrasilSkinProvider.java:50) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.lambda$new$0(MojangSkinProvider.java:43) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.minecraft.server.players.GameProfileCache.m_10993_(GameProfileCache.java:98) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.server.players.GameProfileCache.m_10996_(GameProfileCache.java:150) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.resolveUuid(MojangSkinProvider.java:74) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:40) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:17) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.AbstractSkinProvider.fetchSkin(AbstractSkinProvider.java:52) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md978671$lambda$skinrestorer$fetchSkin$3$1(ServerLoginPacketListenerImpl.java:646) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.skinrestorer$fetchSkin(ServerLoginPacketListenerImpl.java:646) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md978671$lambda$waitForSkin$0$4(ServerLoginPacketListenerImpl.java:595) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[17Aug2026 05:01:20.695] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Za0lly[/127.173.197.184:39251] logged in with entity id 240994 at (-1439.5920369998291, 119.0, -290.2104805969183)
+[17Aug2026 05:01:20.703] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Za0lly
+[17Aug2026 05:01:20.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Za0lly joined the game
+[17Aug2026 05:01:20.883] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Za0lly (20)
+[17Aug2026 05:01:20.884] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Za0lly
+[17Aug2026 05:01:22.083] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player fe7c97c0-2965-3341-a677-e764dc69cf72
+[17Aug2026 05:01:23.082] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player fe7c97c0-2965-3341-a677-e764dc69cf72
+[17Aug2026 05:01:23.083] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Za0lly (fe7c97c0-2965-3341-a677-e764dc69cf72) successfully connected to voice chat
+[17Aug2026 05:01:26.397] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Za0lly lost connection: Disconnected
+[17Aug2026 05:01:26.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Za0lly left the game
+[17Aug2026 05:01:26.398] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Za0lly
+[17Aug2026 05:02:17.943] [SkinRestorer-Fetch-18/WARN] [SkinRestorer/]: Failed to fetch skin 'mojang:Za0lly'
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:141) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.YggdrasilSkinProvider.getProfile(YggdrasilSkinProvider.java:50) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.lambda$new$0(MojangSkinProvider.java:43) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.minecraft.server.players.GameProfileCache.m_10993_(GameProfileCache.java:98) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.server.players.GameProfileCache.m_10996_(GameProfileCache.java:150) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.resolveUuid(MojangSkinProvider.java:74) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:40) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:17) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.AbstractSkinProvider.fetchSkin(AbstractSkinProvider.java:52) ~[skinrestorer-2.10.0+1.20-forge.jar%23157!/:2.10.0+1.20-forge]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md978671$lambda$skinrestorer$fetchSkin$3$1(ServerLoginPacketListenerImpl.java:646) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.skinrestorer$fetchSkin(ServerLoginPacketListenerImpl.java:646) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md978671$lambda$waitForSkin$0$4(ServerLoginPacketListenerImpl.java:595) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[17Aug2026 05:02:18.002] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Za0lly[/127.173.197.184:59463] logged in with entity id 241500 at (-1440.7070122671064, 116.45467179637215, -290.8344349286849)
+[17Aug2026 05:02:18.016] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Za0lly
+[17Aug2026 05:02:18.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Za0lly joined the game
+[17Aug2026 05:02:18.365] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Za0lly (20)
+[17Aug2026 05:02:18.366] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Za0lly
+[17Aug2026 05:02:19.020] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player fe7c97c0-2965-3341-a677-e764dc69cf72
+[17Aug2026 05:02:20.022] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player fe7c97c0-2965-3341-a677-e764dc69cf72
+[17Aug2026 05:02:20.042] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Za0lly (fe7c97c0-2965-3341-a677-e764dc69cf72) successfully connected to voice chat
+[17Aug2026 05:02:25.131] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2062ms or 41 ticks behind
+[17Aug2026 05:02:27.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GonzaloM369: Teleported GonzaloM369 to Za0lly]
+[17Aug2026 05:02:40.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GonzaloM369: Teleported GonzaloM369 to f4tizzz]
+[17Aug2026 05:02:42.071] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Za0lly was slain by Phantom
+[17Aug2026 05:02:43.097] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2978ms or 59 ticks behind
+[17Aug2026 05:07:04.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GonzaloM369: Teleported Za0lly to GonzaloM369]
+[17Aug2026 05:15:04.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [f4tizzz: Teleported f4tizzz to Za0lly]
+[17Aug2026 05:15:13.614] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: fossil:tar_site/tent_options
+[17Aug2026 05:15:15.134] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3665ms or 73 ticks behind
+[17Aug2026 05:15:28.907] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 05:15:28.908] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 05:15:28.908] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 05:15:28.908] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 05:15:28.908] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 05:15:28.908] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 05:15:28.908] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 05:15:28.908] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 05:15:28.908] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 05:15:28.908] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 05:15:28.908] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_leader
+[17Aug2026 05:15:28.908] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger
+[17Aug2026 05:15:28.908] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger
+[17Aug2026 05:17:00.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to -3453.500000, 71.500000, -4305.500000]
+[17Aug2026 05:17:16.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Za0lly has made the advancement [Acquire Hardware]
+[17Aug2026 05:17:54.051] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved wrongly! 0.6412149660513933
+[17Aug2026 05:17:54.106] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved wrongly! 1.6299654750441732
+[17Aug2026 05:17:54.152] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved wrongly! 2.3753537826505635
+[17Aug2026 05:17:54.201] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved wrongly! 0.3895052525845131
+[17Aug2026 05:17:54.252] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved wrongly! 0.3177382375583875
+[17Aug2026 05:17:54.302] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved wrongly! 0.2771589896697151
+[17Aug2026 05:17:54.352] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved wrongly! 0.25448102479504087
+[17Aug2026 05:19:12.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [f4tizzz: Teleported f4tizzz to GonzaloM369]
+[17Aug2026 05:19:17.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: antares has completed the challenge [Rude Awakening]
+[17Aug2026 05:20:32.428] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 05:20:32.428] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 05:20:32.428] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 05:20:32.428] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 05:20:32.428] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 05:20:32.428] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 05:20:32.428] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 05:20:32.429] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 05:20:32.429] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_leader
+[17Aug2026 05:20:32.429] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger
+[17Aug2026 05:20:32.429] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger
+[17Aug2026 05:20:53.649] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: fossil:tar_site/tent_options
+[17Aug2026 05:20:59.794] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/257279, l='ServerLevel[world]', x=-3185.63, y=67.00, z=-3603.28] died, message: 'Villager suffocated in a wall'
+[17Aug2026 05:21:20.499] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/257395, l='ServerLevel[world]', x=-3169.63, y=64.50, z=-3570.28] died, message: 'Villager suffocated in a wall'
+[17Aug2026 05:22:00.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: antares was slain by Speed Stinger
+[17Aug2026 05:22:10.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to -3121.500000, 63.500000, -3756.500000]
+[17Aug2026 05:25:10.580] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
+[17Aug2026 05:25:32.097] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6529ms or 130 ticks behind
+[17Aug2026 05:25:54.108] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1038, y=72, z=57} BlockPos{x=-1038, y=70, z=55}
+[17Aug2026 05:26:01.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: antares was slain by Lead Speed Stinger
+[17Aug2026 05:26:06.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to -3144.500000, 64.500000, -3759.500000]
+[17Aug2026 05:29:05.178] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 05:29:05.179] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 05:29:05.179] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 05:29:05.180] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 05:29:05.180] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 05:29:05.181] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 05:29:05.181] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 05:29:05.181] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 05:29:05.181] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_leader
+[17Aug2026 05:29:05.181] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger
+[17Aug2026 05:29:05.181] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger
+[17Aug2026 05:30:55.399] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 05:30:55.399] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 05:30:55.399] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 05:30:55.399] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 05:30:55.399] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 05:30:55.399] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 05:30:55.400] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_egg
+[17Aug2026 05:30:55.400] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger_leader
+[17Aug2026 05:30:55.400] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger
+[17Aug2026 05:30:55.400] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id isleofberk:speed_stinger
+[17Aug2026 05:31:53.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> encontre la casa de dani xd
+[17Aug2026 05:31:56.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> todos andan cerca
+[17Aug2026 05:32:05.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Za0lly> xd
+[17Aug2026 05:35:19.420] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved wrongly! 0.5115732913225053
+[17Aug2026 05:35:19.464] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved wrongly! 1.4278813044741556
+[17Aug2026 05:35:19.514] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved wrongly! 2.1166981715390545
+[17Aug2026 05:35:19.552] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved wrongly! 2.6898211351091588
+[17Aug2026 05:35:19.609] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved wrongly! 0.3198644564679777
+[17Aug2026 05:35:19.661] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved wrongly! 0.7984085565609788
+[17Aug2026 05:35:19.709] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved wrongly! 0.30788924165778664
+[17Aug2026 05:35:19.761] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved wrongly! 0.30683117148134104
+[17Aug2026 05:35:19.813] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved wrongly! 0.3064219275383424
+[17Aug2026 05:35:19.865] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved wrongly! 0.306248096352852
+[17Aug2026 05:35:19.906] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved wrongly! 0.3061680353345373
+[17Aug2026 05:35:19.968] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved wrongly! 0.3061289081682743
+[17Aug2026 05:35:20.009] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved wrongly! 0.30610903522759947
+[17Aug2026 05:35:20.058] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved wrongly! 0.30609870609421375
+[17Aug2026 05:35:20.107] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved wrongly! 0.30609326636712547
+[17Aug2026 05:35:20.158] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved wrongly! 0.3060903806415124
+[17Aug2026 05:35:20.209] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved wrongly! 0.30608884369485617
+[17Aug2026 05:35:20.254] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved wrongly! 0.30608802335198787
+[17Aug2026 05:35:20.315] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved wrongly! 0.30608758498866845
+[17Aug2026 05:35:39.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: antares has made the advancement [Mine? Mine? Mine?]
+[17Aug2026 05:36:50.289] [Server thread/INFO] [DragonPortal/]: [dragonPortal] changeDimension dragon id=261994 minecraft:overworld → minecraft:the_nether passengers=1
+[17Aug2026 05:36:50.854] [Server thread/INFO] [DragonPortal/]: [dragonPortal] TP player antares to minecraft:the_nether → true
+[17Aug2026 05:36:50.855] [Server thread/INFO] [DragonPortal/]: [dragonPortal] startRiding player antares on dragon id=276128 → true
+[17Aug2026 05:36:50.875] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! -1830.902211802645,6.0,-92.6591203771775
+[17Aug2026 05:36:50.876] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! -1830.6230995227434,6.0,-92.74877881744614
+[17Aug2026 05:36:50.876] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! -1830.343066210603,6.0,-92.83852691050227
+[17Aug2026 05:36:50.876] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! -1830.0625400724753,6.0,-92.92832297497749
+[17Aug2026 05:36:50.877] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! -1829.7817502329876,6.0,-93.01814470800264
+[17Aug2026 05:36:50.877] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! -1829.50081929216,6.0,-93.10798017575706
+[17Aug2026 05:36:50.878] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! -1829.2197011835406,6.0,-93.19747201969673
+[17Aug2026 05:36:50.878] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! -1828.9384829251671,6.0,-93.28677999738426
+[17Aug2026 05:36:50.878] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! -1828.656998375186,6.0,-93.3753118766124
+[17Aug2026 05:36:50.878] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! -1828.3746472301627,6.0,-93.46102274016216
+[17Aug2026 05:36:50.879] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! -1828.118129615816,6.0,-93.59898816249425
+[17Aug2026 05:36:50.879] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! -1827.8739999319864,6.0,-93.76324482243156
+[17Aug2026 05:36:50.919] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! -1827.6099753687045,6.0,-93.8832202658016
+[17Aug2026 05:36:50.986] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! -1827.4687010889743,6.0,-93.94741673349662
+[17Aug2026 05:37:49.452] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2034ms or 40 ticks behind
+[17Aug2026 05:38:19.277] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 14859ms or 297 ticks behind
+[17Aug2026 05:38:24.171] [Server thread/INFO] [DragonPortal/]: [dragonPortal] changeDimension dragon id=276128 minecraft:the_nether → minecraft:overworld passengers=0
+[17Aug2026 05:38:24.174] [Server thread/INFO] [DragonPortal/]: [dragonPortal] follow post-dim: dragon ffe8c8f3-9be6-419d-a2da-3557a8cb35a6 → ok id=277081
+[17Aug2026 05:38:24.756] [Server thread/INFO] [DragonPortal/]: [dragonPortal] changeDimension dragon id=277081 minecraft:overworld → minecraft:the_nether passengers=1
+[17Aug2026 05:38:24.829] [Server thread/INFO] [DragonPortal/]: [dragonPortal] TP player antares to minecraft:the_nether → true
+[17Aug2026 05:38:24.830] [Server thread/INFO] [DragonPortal/]: [dragonPortal] startRiding player antares on dragon id=277091 → true
+[17Aug2026 05:38:24.858] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! -1319.2572569781312,49.0,379.0
+[17Aug2026 05:38:24.862] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! -1319.2572569781312,49.0,379.0
+[17Aug2026 05:38:24.870] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! -1319.2572569781312,49.0,379.0
+[17Aug2026 05:38:24.871] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! -1319.2572569781312,49.0,379.0
+[17Aug2026 05:38:38.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> .
+[17Aug2026 05:38:47.427] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 13158ms or 263 ticks behind
+[17Aug2026 05:39:06.893] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4474ms or 89 ticks behind
+[17Aug2026 05:39:23.557] [Server thread/INFO] [DragonPortal/]: [dragonPortal] changeDimension dragon id=277091 minecraft:the_nether → minecraft:overworld passengers=0
+[17Aug2026 05:39:23.565] [Server thread/INFO] [DragonPortal/]: [dragonPortal] follow post-dim: dragon ffe8c8f3-9be6-419d-a2da-3557a8cb35a6 → ok id=277697
+[17Aug2026 05:39:23.918] [Server thread/INFO] [DragonPortal/]: [dragonPortal] changeDimension dragon id=277697 minecraft:overworld → minecraft:the_nether passengers=1
+[17Aug2026 05:39:23.968] [Server thread/INFO] [DragonPortal/]: [dragonPortal] TP player antares to minecraft:the_nether → true
+[17Aug2026 05:39:23.969] [Server thread/INFO] [DragonPortal/]: [dragonPortal] startRiding player antares on dragon id=277710 → true
+[17Aug2026 05:39:23.987] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! -1318.7238551110738,49.0,379.0
+[17Aug2026 05:39:23.988] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! -1318.7238551110738,49.0,379.0
+[17Aug2026 05:39:23.988] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! -1318.7238551110738,49.0,379.0
+[17Aug2026 05:39:24.098] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! -1318.7238551110738,49.0,379.0
+[17Aug2026 05:39:24.104] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! -1318.7238551110738,49.0,379.0
+[17Aug2026 05:39:27.776] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5907ms or 118 ticks behind
+[17Aug2026 05:39:46.387] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3618ms or 72 ticks behind
+[17Aug2026 05:39:51.228] [Server thread/INFO] [DragonPortal/]: [dragonPortal] changeDimension dragon id=277710 minecraft:the_nether → minecraft:overworld passengers=0
+[17Aug2026 05:39:51.229] [Server thread/INFO] [DragonPortal/]: [dragonPortal] follow post-dim: dragon ffe8c8f3-9be6-419d-a2da-3557a8cb35a6 → ok id=278072
+[17Aug2026 05:39:51.810] [Server thread/INFO] [DragonPortal/]: [dragonPortal] changeDimension dragon id=278072 minecraft:overworld → minecraft:the_nether passengers=1
+[17Aug2026 05:39:51.868] [Server thread/INFO] [DragonPortal/]: [dragonPortal] TP player antares to minecraft:the_nether → true
+[17Aug2026 05:39:51.869] [Server thread/INFO] [DragonPortal/]: [dragonPortal] startRiding player antares on dragon id=278087 → true
+[17Aug2026 05:39:51.887] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! -1318.9800028632235,49.0,379.0
+[17Aug2026 05:39:52.062] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! -1318.9800028632235,49.0,379.0
+[17Aug2026 05:39:52.063] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! -1318.9800028632235,49.0,379.0
+[17Aug2026 05:39:52.064] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! -1318.9800028632235,49.0,379.0
+[17Aug2026 05:39:52.064] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! -1318.9800028632235,49.0,379.0
+[17Aug2026 05:40:04.446] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3078ms or 61 ticks behind
+[17Aug2026 05:40:10.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to f4tizzz]
+[17Aug2026 05:40:10.251] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 824.9614722309825,-10.043074705601114,-35.87786644694873
+[17Aug2026 05:40:10.251] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 824.9614722309825,-10.043074705601114,-35.87786644694873
+[17Aug2026 05:40:10.253] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 824.9614722309825,-10.043074705601114,-35.87786644694873
+[17Aug2026 05:40:10.253] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved too quickly! 824.9614722309825,-10.043074705601114,-35.87786644694873
+[17Aug2026 05:40:13.128] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> aa
+[17Aug2026 05:40:18.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: antares suffocated in a wall
+[17Aug2026 05:40:23.533] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4115ms or 82 ticks behind
+[17Aug2026 05:40:33.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to f4tizzz]
+[17Aug2026 05:40:41.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> no se
+[17Aug2026 05:40:54.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> donde mori?
+[17Aug2026 05:41:04.319] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> ay
+[17Aug2026 05:41:06.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> y me hice tp
+[17Aug2026 05:41:18.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> xdd
+[17Aug2026 05:41:30.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to -1514.500000, 126.500000, 435.500000]
+[17Aug2026 05:41:52.777] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[17Aug2026 05:41:58.317] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: f4tizzz moved too quickly! 10.115947727650564,0.3170295344034173,0.5239158313847412
+[17Aug2026 05:42:16.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to -1022.500000, 79.500000, 70.500000]
+[17Aug2026 05:42:22.917] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Set own game mode to Creative Mode]
+[17Aug2026 05:42:40.159] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2040ms or 40 ticks behind
+[17Aug2026 05:42:58.925] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3807ms or 76 ticks behind
+[17Aug2026 05:43:06.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Za0lly has made the advancement [Isn't It Iron Pick]
+[17Aug2026 05:43:47.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Set own game mode to Survival Mode]
+[17Aug2026 05:43:52.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to f4tizzz]
+[17Aug2026 05:43:52.511] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved wrongly! 3.379226552107934
+[17Aug2026 05:44:19.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> se me bugeo el dragon x,d
+[17Aug2026 05:44:30.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: antares suffocated in a wall
+[17Aug2026 05:44:45.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <f4tizzz> XDD
+[17Aug2026 05:45:09.559] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2240ms or 44 ticks behind
+[17Aug2026 05:45:16.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to -1019.500000, 78.500000, 68.500000]
+[17Aug2026 05:45:40.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to GonzaloM369]
+[17Aug2026 05:45:40.547] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved wrongly! 5.168330512306828
+[17Aug2026 05:45:43.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> a
+[17Aug2026 05:45:59.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to GonzaloM369]
+[17Aug2026 05:45:59.769] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved wrongly! 7.507685383478224
+[17Aug2026 05:46:03.028] [Server thread/INFO] [DragonPortal/]: [dragonPortal] changeDimension dragon id=282912 minecraft:the_nether → minecraft:overworld passengers=0
+[17Aug2026 05:46:03.030] [Server thread/INFO] [DragonPortal/]: [dragonPortal] follow post-dim: dragon ffe8c8f3-9be6-419d-a2da-3557a8cb35a6 → ok id=283712
+[17Aug2026 05:46:03.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to GonzaloM369]
+[17Aug2026 05:46:06.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> ya
+[17Aug2026 05:46:19.343] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> perdi todo por 10 vez
+[17Aug2026 05:47:21.100] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> fati usa el armor
+[17Aug2026 05:47:27.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> te da items de cualquier cosa
+[17Aug2026 05:47:39.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> con una plantilla
+[17Aug2026 05:47:44.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> hay de todo
+[17Aug2026 05:47:47.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> hasta puedes crear tu
+[17Aug2026 05:47:52.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> y ponerlo en el juego
+[17Aug2026 05:48:04.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> miar conserve esto
+[17Aug2026 05:48:14.943] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> lo del boss
+[17Aug2026 05:48:26.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> congela lit
+[17Aug2026 05:48:54.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> mi dragon combina con tu casa
+[17Aug2026 05:51:19.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> me prestas arena?
+[17Aug2026 05:51:33.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> si de sobra
+[17Aug2026 05:51:59.161] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to -1514.500000, 126.500000, 435.500000]
+[17Aug2026 05:52:22.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to f4tizzz]
+[17Aug2026 05:54:55.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to Za0lly]
+[17Aug2026 05:54:58.361] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> salo tienes hierro?
+[17Aug2026 05:55:03.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> xdd
+[17Aug2026 05:55:12.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> ahora tienes un pollo
+[17Aug2026 05:55:40.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to -1514.500000, 126.500000, 435.500000]
+[17Aug2026 05:55:56.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to Za0lly]
+[17Aug2026 05:57:14.285] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: GonzaloM369 lost connection: Disconnected
+[17Aug2026 05:57:14.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GonzaloM369 left the game
+[17Aug2026 05:57:14.286] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client GonzaloM369
+[17Aug2026 05:58:35.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> es para decorar
+[17Aug2026 05:58:48.447] [Server thread/INFO] [ArmourersWorkshop/]: accept load request of the 'antares', from: 'fs:/downloads/25104 - 3x3x3 Chess Board.armour', to: 'db:'
+[17Aug2026 05:58:53.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> ten salo
+[17Aug2026 06:01:22.557] [Server thread/INFO] [ArmourersWorkshop/]: accept load request of the 'antares', from: 'fs:/downloads/24747 - Decorative Pink Chair.armour', to: 'db:'
+[17Aug2026 06:01:28.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to f4tizzz]
+[17Aug2026 06:03:12.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> si
+[17Aug2026 06:03:18.851] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> algo
+[17Aug2026 06:03:56.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> el dragon me volvio a dejar
+[17Aug2026 06:05:50.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> otro dia creo spotify xd
+[17Aug2026 06:05:59.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> esta el mod de computadoras
+[17Aug2026 06:06:02.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> con codigo todo se puede
+[17Aug2026 06:06:13.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> pero mi dragon x,d
+[17Aug2026 06:06:16.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> se llevo lo poco que tenia
+[17Aug2026 06:06:20.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Za0lly was blown up by Creeper
+[17Aug2026 06:06:26.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> no se el otro que tenia era mas obediente
+[17Aug2026 06:06:28.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> este me deja
+[17Aug2026 06:06:59.963] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> pon gatos fati
+[17Aug2026 06:07:01.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> mucho creeper
+[17Aug2026 06:07:19.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: antares was blown up by Creeper
+[17Aug2026 06:07:23.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> ...
+[17Aug2026 06:07:56.897] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to f4tizzz]
+[17Aug2026 06:08:17.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Za0lly has made the advancement [Crops of the Wild]
+[17Aug2026 06:09:35.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Set own game mode to Spectator Mode]
+[17Aug2026 06:11:42.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Teleported antares to Za0lly]
+[17Aug2026 06:13:40.039] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: f4tizzz has made the advancement [Voluntary Exile]
+[17Aug2026 06:14:31.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> me bugie en modo espectador mms
+[17Aug2026 06:14:33.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> no es mi dia
+[17Aug2026 06:14:47.036] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: antares moved too quickly! 12.13339308764671,-2.627996803007605,-2.089673517924112
+[17Aug2026 06:14:51.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> que te van atacar
+[17Aug2026 06:14:57.187] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: antares moved too quickly! 6.155644839806428,2.627996803007605,-9.502656587350863
+[17Aug2026 06:15:02.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> esa cosa es eterna
+[17Aug2026 06:15:11.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> si no hay no pasa nada
+[17Aug2026 06:15:14.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> pero como te acerques
+[17Aug2026 06:19:44.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Za0lly fell from a high place
+[17Aug2026 06:21:19.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> como me cae mal ese dragon se fue sin aviso
+[17Aug2026 06:26:33.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Set own game mode to Survival Mode]
+[17Aug2026 06:26:39.344] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: antares lost connection: Disconnected
+[17Aug2026 06:26:39.344] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: antares left the game
+[17Aug2026 06:26:39.344] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client antares
+[17Aug2026 06:26:46.204] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: antares[/127.29.15.204:42841] logged in with entity id 302950 at (-1008.8696262139815, 68.0, 73.66371924793239)
+[17Aug2026 06:26:46.212] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player antares
+[17Aug2026 06:26:46.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: antares joined the game
+[17Aug2026 06:26:46.607] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of antares (20)
+[17Aug2026 06:26:46.608] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to antares
+[17Aug2026 06:26:49.150] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player d2996896-477c-303b-9567-4082b9abb61d
+[17Aug2026 06:26:50.152] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player d2996896-477c-303b-9567-4082b9abb61d
+[17Aug2026 06:26:50.152] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player antares (d2996896-477c-303b-9567-4082b9abb61d) successfully connected to voice chat
+[17Aug2026 06:28:46.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Set own game mode to Spectator Mode]
+[17Aug2026 06:29:26.596] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: f4tizzz lost connection: Disconnected
+[17Aug2026 06:29:26.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: f4tizzz left the game
+[17Aug2026 06:29:26.597] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client f4tizzz
+[17Aug2026 06:33:41.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> YA LO ENCONTRE
+[17Aug2026 06:33:43.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Set own game mode to Survival Mode]
+[17Aug2026 06:34:30.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> salo
+[17Aug2026 06:34:33.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> te dejo el servidor
+[17Aug2026 06:34:37.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Za0lly> uqeee
+[17Aug2026 06:34:43.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Za0lly> como asi
+[17Aug2026 06:34:47.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> para que lo apagues
+[17Aug2026 06:34:50.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> ya me voy a dormir xd
+[17Aug2026 06:34:54.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Za0lly> aaaa yaap
+[17Aug2026 06:34:59.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [antares: Made Za0lly a server operator]
+[17Aug2026 06:35:04.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Za0lly> ehhh como cierro
+[17Aug2026 06:35:07.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> pones /stop cuando te vayas
+[17Aug2026 06:35:14.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Za0lly> mhhh yaap
+[17Aug2026 06:35:21.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> igual se cerrara en un rato sin hacer nada
+[17Aug2026 06:35:29.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Za0lly> xd
+[17Aug2026 06:35:33.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Za0lly> ayyy yap
+[17Aug2026 06:35:35.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> gn salo
+[17Aug2026 06:35:49.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Za0lly> byeee andree
+[17Aug2026 06:36:06.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> espera me dio miedo que este se vuele denuevo xd
+[17Aug2026 06:36:15.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Za0lly> jajaaj ayy
+[17Aug2026 06:36:15.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> el se puso a volar en las minas
+[17Aug2026 06:36:17.895] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved wrongly! 0.27872022627245485
+[17Aug2026 06:36:17.948] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved wrongly! 0.9861978197058647
+[17Aug2026 06:36:17.987] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Deadly Nadder (vehicle of antares) moved wrongly! 1.391322699020094
+[17Aug2026 06:36:24.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Za0lly> como llega hast ahi wtff
+[17Aug2026 06:36:41.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> no se su programacion es rara es casi independiente
+[17Aug2026 06:36:48.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> tienes un lugar cerrado cerca
+[17Aug2026 06:36:50.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> aldea o algo
+[17Aug2026 06:36:58.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Za0lly> ehhhmi casa?
+[17Aug2026 06:37:07.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> si solo para que no salga
+[17Aug2026 06:37:11.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> hasta un agujero me sirve
+[17Aug2026 06:37:14.897] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Za0lly> normal
+[17Aug2026 06:37:59.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> xdd
+[17Aug2026 06:38:12.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Za0lly> esa cosa
+[17Aug2026 06:38:14.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> jjsjs medio como que no entra
+[17Aug2026 06:38:22.867] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Za0lly> y pq no se teletrasorta
+[17Aug2026 06:38:30.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> pq le gusta molestarme
+[17Aug2026 06:38:33.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Za0lly> xd
+[17Aug2026 06:39:22.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> yei se pudo
+[17Aug2026 06:39:33.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Za0lly> xd
+[17Aug2026 06:39:36.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <antares> ahora si gn salo
+[17Aug2026 06:39:40.580] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: antares lost connection: Disconnected
+[17Aug2026 06:39:40.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: antares left the game
+[17Aug2026 06:39:40.580] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client antares
